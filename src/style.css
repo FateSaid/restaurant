@@ -1,0 +1,108 @@
+@font-face {
+    font-family: 'MyFont';
+    src: url('./pacifico-regular-webfont.woff2') format(woff2),
+        url('./pacifico-regular-webfont.woff') format(woff);
+    font-weight:bold;
+    font-style:normal;
+}
+
+@font-face {
+    font-family: 'Yanone';
+    src: url(./yanonekaffeesatz-variablefont_wght-webfont.woff) format(woff),
+    url(./yanonekaffeesatz-variablefont_wght-webfont.woff2) format(woff2);
+    font-weight:bolder;
+    font-style:normal;
+}
+
+html, body{
+    height:100%;
+    margin:0;
+    padding:0;
+    overflow: hidden;
+}
+
+button{
+    background-color: black;
+    color:white;
+    border:none;
+    padding:15px 32px;
+    text-align:center;
+    text-decoration: none;
+    display:inline-block;
+    font-size:16px;
+    cursor:default;
+}
+
+#content{
+    display:flex;
+    justify-content: center;
+}
+
+.kitchen{
+    position:relative;
+    border-radius: 50%;
+}
+
+
+h1{
+    font-family:'MyFont';
+    font-size:4rem;
+    color:rgb(223, 220, 18);
+}
+
+.kitchen-content{
+    position:absolute;
+    top:10%;
+    left:50%;
+    transform:translateX(-50%);
+    width:fit-content;
+    text-align:center;
+    background-color: gray;
+    border:2px solid white;
+    border-radius: 30px;
+    padding:10px 20px;
+}
+
+.kitchen-menu{
+    position:absolute;
+    top:140%;
+    left:50%;
+    transform:translateX(-50%);
+    width:370%;
+    height:400%;
+    text-align:center;
+    background-color: gray;
+    border:2px solid white;
+    border-radius: 30px;
+    padding:10px 20px;
+    list-style-type: none;
+
+}
+
+.kitchen-menu h1{
+    font-size:3rem;
+}
+
+.menu-list{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    gap:20px;
+    font-family: 'Yanone';
+    color:rgb(248, 243, 243);
+    font-size:1.2rem;
+}
+
+li{
+    background-color: rgb(148, 107, 107);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+p{
+    font-size:1.3rem;
+    line-height:2;
+}
+
+.coffee-image{
+    height:40%;
+    width:40%;
+}
