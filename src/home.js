@@ -1,4 +1,4 @@
-import Kitchen from '/src/kitchen.jpg';
+import Kitchen from './kitchen.jpg';
 
 export default function homeTab(){
     const kitchenContainer = document.createElement('div');

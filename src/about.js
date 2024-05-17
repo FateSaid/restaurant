@@ -1,5 +1,5 @@
-import Kitchen from './src/kitchen.jpg';
-import Coffee from './src/coffee.jpg';
+import Kitchen from './kitchen.jpg';
+import Coffee from './coffee.jpg';
 
 export default function aboutTab(){
     const kitchenContainer = document.createElement('div');
